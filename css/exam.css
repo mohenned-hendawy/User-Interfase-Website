@@ -1,0 +1,453 @@
+body
+{
+    overflow-x: hidden;
+}
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: none;
+}
+.navbar-brand
+{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.nav-icons i:hover
+{
+    color: rgb(158, 153, 153);
+}
+.dot
+{
+    color: #06bed3;
+}
+.navbar-fixed-top.scrolled {
+    background-color: #343a40!important;
+    transition: background-color 200ms linear;
+}
+.navbar a
+{
+    color: #fff !important;
+}
+.nav-vl::after
+{
+    content: "";
+    width: 1px;
+    height: 90px;
+    position: absolute;
+    background-color: gainsboro;
+    top: -5; 
+    bottom: -25px;
+    left: 100%;
+}
+
+.nav-icons i
+{
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    transition: color .5s;
+}
+.carousel-item1
+{
+    background-image: url(../images/images/bg-image-28.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.carousel-item2
+{
+    background-image: url(../images/images/bg-image-29.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.slider-content h2
+{
+    visibility: visible;
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    /* animation-name: header-content-opacity;
+    animation-duration: .3s; */
+}
+/* @keyframes header-content-opacity
+{
+    0%{visibility: hidden;}
+    100%{visibility: visible;}
+} */
+.slider-content p
+{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.slider-btn
+{
+    padding: 15px 20px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color .5s;
+}
+.slider-left-btn
+{
+    transition: transform .8s;
+    background-color: rgb(0, 195, 218);
+}
+.slider-left-btn:hover
+{
+    transform: translateY(-3px);
+    color: #fff;
+    text-decoration: none;
+}
+.slider-right-btn:hover
+{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff !important;
+}
+
+header
+{
+    color: #fff;
+}
+.carousel-control
+{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    /* width: 50px;
+    height: 50px; */
+    background-color: transparent;
+    z-index: 1;
+}
+.carousel-control i
+{
+    font-size: 1.5rem;
+    color: #fff;
+    transition: color 0s .15s;
+}
+/* .header-indicator
+{
+    z-index: 10;
+} */
+.indicator-overlay
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    transform: translateX(-100%);
+    transition: transform .3s;
+    z-index: -1;
+}
+.header-indicator:hover .indicator-overlay
+{
+    transform: translateX(0);
+}
+.header-indicator:hover .control-arrow
+{
+    color: black !important;
+}
+.header-layer
+{
+    background-color: rgba(0, 0, 0, .6);
+    
+}
+.typespan
+{
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.typed-cursor
+{
+    font-size: 1rem;
+}
+.section1
+{
+    padding: 6rem;
+}
+.section1 p
+{
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: rgb(120, 120, 120);
+}
+.span-p
+{
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: rgb(120, 120, 120);
+}
+.typespan
+{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: rgb(0, 195, 218);
+}
+.section1 a
+{
+    color: black;
+    font-size: .8rem;
+    transition: background-color .5s,color .5s;
+}
+.section1 a:hover
+{
+    background-color: black !important;
+    color: #fff;
+}
+.section2
+{
+    padding: 6rem;
+}
+.big-c
+{
+    color: rgba(204, 204, 204, 0.411);
+    font-size: 4rem;
+    font-weight: 700;
+}
+.team-h2-holder
+{
+    top: 35%;
+    left: 50%;
+}
+.team-h2
+{
+    position: relative;
+    right: 50%;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.section2 p, .section4 p
+{
+    color: rgb(120, 120, 120);
+    font-size: 1.1rem;
+}
+.section2-overlay
+{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 195, 218, 0.9);
+    opacity: 0;
+    transform: translateY(10%);
+    transition: transform .5s, opacity .5s;
+}
+.team-info
+{
+    bottom: 10px;
+    left: 10px;
+}
+.team-member-animated:hover .section2-overlay
+{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.fa-angle-left
+{
+    font-size: 3rem;
+    color: rgb(0, 112, 103);
+}
+.section3
+{
+    background-color: rgb(119, 116, 116);
+    color: #fff;
+    padding: 7rem;
+}
+.STUNNING-DESIGN
+{
+    margin-bottom: 6rem;
+}
+.STUNNING-DESIGN i
+{
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    
+}
+.STUNNING-DESIGN svg
+{
+    stroke: #fff;
+}
+.h2-test
+{
+    top: 0%;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.p-test
+{
+    margin-top: 0;
+}
+.big-w
+{
+    color: rgb(107, 105, 105);
+    font-size: 4.5rem;
+    font-weight: 800;
+    bottom: 15%;
+    right: 4%;
+    margin-bottom: 0;
+}
+.section3 ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+.section3 li
+{
+    margin-bottom: 1rem;
+}
+.section4, .section5
+{
+    background-color: rgb(247, 247, 247);
+    padding: 110px;
+}
+.section4 ul
+{
+    list-style-type: none;
+    margin-bottom: 2rem;
+}
+.price
+{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.price i
+{
+    font-size: 1rem;
+}
+.plan-item-scale
+{
+    transform: scaleY(1.1);
+}
+.section4 li
+{
+    margin-bottom: 1rem;
+    color: dimgrey;
+}
+.section4 a
+{
+    display: inline-block;
+    background-color:  rgb(0, 195, 218);
+    padding: .6rem;
+    font-size: .8rem;
+    font-weight: 500;
+    transition: transform .5s;
+}
+.plan-item a:hover
+{
+    transform: translateY(-3px);
+    color: #fff;
+}
+.section5
+{
+    padding: 100px;
+}
+.carousel-item
+{
+    overflow: visible !important;
+}
+.carousel-inner
+{
+    overflow: visible !important;
+}
+.card-img-holder
+{
+    top: 0;
+    left: 12.4rem;
+}
+.card-img
+{
+    border-radius: 50%;
+    transform: translateY(-50%);
+    /* bottom: 50%; */
+}
+.slider-indicator
+{
+    bottom: -30%;
+}
+.slider-indicator li
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: darkgray;
+}
+.section5 ol .active
+{
+    background-color: rgb(0, 195, 218);
+}
+.arrow-control
+{
+    color: black;
+    font-size: 2rem;
+    transition: transform .5s, color .5s;
+}
+.control-right
+{
+    left: 80%;
+    top: 50%;
+}
+.control-left
+{
+    right: 80%;
+    top: 50%;
+}
+.control:hover i
+{
+    color: rgb(0, 195, 218);
+    
+}
+.control:hover .arrow-control-right
+{
+    transform: translateX(5px);
+}
+.control:hover .arrow-control-left
+{
+    transform: translateX(-5px);
+}
+#map
+{
+     height: 700px;/*   The height is 400 pixels  */
+    /*width: 50%;  The width is the width of the web page */
+}
+.footer-right-side
+{
+    padding: 5rem 3.5rem;
+}
+.origin-h3
+{
+    top: 6.9rem;
+    left: 3.8rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.big-g
+{
+    color: rgba(204, 204, 204, 0.411);
+    font-size: 4rem;
+    font-weight: 700;
+}
+.footer-right-side p
+{
+    color: darkgray;
+    font-size: 1.1rem;
+    margin-bottom: 4rem;
+}
+label, input, textarea
+{
+    display: block;
+    width: 70%;
+}
+input
+{
+    padding: 10px;
+}
+textarea
+{
+    resize: none;
+}
